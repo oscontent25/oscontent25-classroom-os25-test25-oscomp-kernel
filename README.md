@@ -7,7 +7,6 @@
 
 目前已经支持 `libc-test`， `busybox`, `lua`, `lmbench` 相关测例，测试过程无人工干预，需要由内核自动运行，所有测例文件放在镜像中，内核需要支持 `fat32` 文件系统来读取文件。 [镜像文件](https://github.com/os-autograding/testsuits-in-one/raw/gh-pages/fat32.img)
 
-
 评测机运行指令如下：
 
 ```shell
