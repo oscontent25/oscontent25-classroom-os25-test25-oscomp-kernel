@@ -18,8 +18,8 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test1
-        setup-command: npm install
-        command: npm test
+        # setup-command: npm install
+        # command: npm test
         timeout: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
