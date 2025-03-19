@@ -22,7 +22,7 @@ jobs:
         # command: npm test
         timeout: 10
     - name: Autograding Reporter
-      uses: classroom-resources/autograding-grading-reporter@v1
+      uses: oscontent25/autograding-grading-reporter@v1
       env:
         TEST1_RESULTS: "${{steps.test1.outputs.result}}"
       with:
